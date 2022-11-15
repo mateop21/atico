@@ -112,18 +112,20 @@ animation-direction: alternate;
 }
 
 #cf img:nth-of-type(1) {
-  animation-delay: 6s;
+  animation-delay: 8s;
 }
 #cf img:nth-of-type(2) {
-  animation-delay: 4s;
+  animation-delay: 6s;
 }
 #cf img:nth-of-type(3) {
-  animation-delay: 2s;
+  animation-delay: 4s;
 }
 #cf img:nth-of-type(4) {
+  animation-delay: 2s;
+}
+#cf img:nth-of-type(5) {
   animation-delay: 0s;
 }
-
 
 
 /* #Summer22{
@@ -131,3 +133,7 @@ animation-direction: alternate;
   right: 90%;
   
 } */
+
+#h4 {
+  font-size: small;
+}
