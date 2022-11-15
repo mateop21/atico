@@ -1,0 +1,41 @@
+html{
+  font-family: 'futura';
+  font-size: 40px;
+}
+
+/* When the browser is a width of 600px or less, make the font-size smallest */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* When the browser is a width between 601px and 1024px, make the font size smaller */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  body {
+    font-size: 24px;
+  }
+}
+
+.entries{
+  /* display:flex; */
+  /* flex-wrap: wrap; */
+  align-items: flex-start;
+  position: absolute;
+}
+
+#inside {
+  margin-left: 42%;
+}
+
+#outside {
+  margin-left: 42%;
+}
+
+#fragments {
+  margin-left: 40%;
+}
+
+#space {
+  margin-left: 40%;
+}

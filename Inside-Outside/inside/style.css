@@ -1,0 +1,35 @@
+.top-right {
+  z-index: 1;
+  position:absolute;
+  top: 10%;
+  left: 80%;
+  color: orange;
+}
+
+img {
+  z-index: 0;
+}
+
+
+a {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.container {
+  position: relative;
+height:100vh;
+}
+
+#inside {
+  position:absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+}
+
+#h2 {
+  font-family: "futura";
+}
